@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link rel="icon" href="devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;800&family=Poppins:wght@400;500&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Devchallenges</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,body {
+      width: 100%;
+      height: 100%;
+      scroll-behavior: smooth;
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+          fontFamily: {
+            space_mono: ['Space Mono', 'monospace'],
+          }
+        }
+      }
+  </script>
+</head>
+
+<body class="bg-[#FFFFFF]">
+  <nav class="w-full py-5 px-10">
+    <p class="font-[600] font-[Inconsolata] text-[24px] leading-[26px]">404 Not Found</p>
+  </nav>
+  <main class="sm:h-[85vh] h-[100vh] w-full flex sm:flex-row flex-col">
+    <div class="sm:h-full h-1/2 sm:w-1/2 w-full flex items-center justify-center">
+      <img src="./Scarecrow.png" alt="Scarecrow" class="object-contain lg:w-[70%] w-full lg:h-[70%] h-full">
+    </div>
+    <div class="sm:h-full h-1/2 sm:w-1/2 w-full p-5 flex flex-col justify-center">
+      <h1 class="sm:text-[72px] text-[48px] font-[700] font-[space_mono] leading-[95px] lg:pr-36">I have bad news for you</h1>
+      <p class="font-[space_mono] font-[400] sm:text-[24px] text-[18px] leading-[36px] text-[#4F4F4F] lg:pr-96 mt-10">The page you are looking for might be removed or is temporarily unavailable</p>
+      <button class="py-5 px-10 bg-black uppercase text-white text-xs font-semibold mt-10 lg:w-[30%]">Back to Homepage</button>
+    </div>
+  </main>
+  <footer class="py-2">
+    <p class="text-gray-400 text-xs font-[Poppins] text-center">created by Prakhar - devChallenges.io</p>
+  </footer>
+</body>
+
+</html>
