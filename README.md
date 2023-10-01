@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://prakhoo3012.github.io/404-not-found/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Prakhoo3012/404-not-found">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://legacy.devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
       Challenge
     </a>
   </h3>
